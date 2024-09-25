@@ -1,7 +1,7 @@
 /*********************************************
 Your name:
 Question 2: i have 2174192 free ,but 6365532. i dont understand hw the two are not the same number.
-Question 4: <your answer>
-Question 7: <your answer>
-Question 8: <your answer>
+Question 4: when i run  the program the amount of used memory goes up by the amount of memory that i allocate. when i kill the rocess i get that much more memory free. when i try to allocate more memory than i have total the program still uns , but it doesnt allocate memory. Im assuming that its making it use the hard drive or something instead of memory.
+Question 7: unlike the examples in the book the adress space also has vdso, vvar,different libraries andsomething just called memory.
+Question 8: when i run pmap with 2000 MB of allocation there is bit that says 2048004 bytes of memory is added to the heap. I assume that ths is where the program allocates the large array. this matches my expectation becuase it matches the data allocated for the array that should end up in the heap.
 *********************************************/
